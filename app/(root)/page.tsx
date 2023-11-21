@@ -1,3 +1,6 @@
+"use client"
+
+
 import AboutSection from "@/components/about";
 import Community from "@/components/community";
 import GetStarted from "@/components/get-started";

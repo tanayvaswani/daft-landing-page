@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import { Poppins } from "next/font/google";
@@ -21,12 +22,12 @@ const navElements = [
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full z-50 py-2 md:py-4 px-4 flex items-center justify-between border-b border-violet-200 backdrop-blur-sm shadow-sm shadow-violet-300">
+    <div className="fixed w-full z-50 py-2 md:py-4 px-4 flex items-center justify-between backdrop-blur-sm shadow-sm shadow-violet-800">
       <div className="flex items-center justify-between">
         <Link href="/">
           <h1
             className={cn(
-              "hover:text-violet-800 text-xl md:text-3xl font-bold text-primary",
+              "hover:text-violet-800 text-xl md:text-3xl font-bold",
               font.className
             )}
           >
@@ -34,13 +35,13 @@ const Navbar = () => {
           </h1>
         </Link>
       </div>
-      <div className="hidden md:flex  items-center gap-x-3">
+      <div className="hidden md:flex items-center gap-x-3">
         {navElements.map((elm, idx) => {
           return (
             <h1 key={idx}>
               <Button
                 variant="link"
-                className="hover:text-violet-500 hover:font-bold"
+                className="hover:text-violet-500 hover:font-bold text-white"
               >
                 {elm}
               </Button>
