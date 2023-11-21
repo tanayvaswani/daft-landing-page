@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { cn } from '@/lib/utils';
-import React, { useRef, useState } from 'react';
+import { cn } from "@/lib/utils";
+import React, { useRef, useState } from "react";
 
 export default function Card({
   className,
@@ -48,14 +48,15 @@ export default function Card({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className={cn(
-        'relative max-w-md select-none overflow-hidden rounded-md border bg-[#0F1116]',
+        "relative max-w-md select-none overflow-hidden rounded-md border bg-[#0F1116]",
         className
-      )}>
+      )}
+    >
       <div
-        className='pointer-events-none absolute -inset-px hidden opacity-0 transition duration-300 sm:block'
+        className="pointer-events-none absolute -inset-px hidden opacity-0 transition duration-300 sm:block"
         style={{
           opacity,
-          background: `radial-gradient(400px circle at ${position.x}px ${position.y}px, rgba(155,38,182,.1), transparent 40%)`,
+          background: `radial-gradient(400px circle at ${position.x}px ${position.y}px, rgba(46, 16, 101, .3), transparent 40%)`,
         }}
       />
       {children}
