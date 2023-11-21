@@ -1,5 +1,6 @@
 import Image from "next/image";
-import illustration from "@/public/daft_illustration.png";
+import illustrationJSON from "@/public/JSON.png";
+import illustration from "@/public/ils.png";
 
 const AboutSection = () => {
   return (
@@ -7,7 +8,7 @@ const AboutSection = () => {
       <h1 className="font-bold text-4xl pb-2 content-center">
         Daft: The Distributed Python Dataframe
       </h1>
-      <p className="font-medium my-2">
+      <p className="font-medium mb-8">
         Daft is a fast and scalable Python dataframe for Complex Data and
         Machine Learning workloads.
       </p>

@@ -8,7 +8,7 @@ const GetStarted = () => {
         You can get started with Daft by installing it with a simple command
         using pip:
       </p>
-      <p className="px-6 py-4 w-full font-mono font-semibold bg-gray-300 rounded-sm text-gray-700">
+      <p className="px-6 py-4 w-full font-mono font-semibold bg-gray-700/10 rounded-sm shadow-sm shadow-violet-700 text-violet-600">
         $ pip install getdaft
       </p>
     </div>
