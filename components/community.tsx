@@ -2,13 +2,12 @@
 
 import Link from "next/link";
 import Card from "./ui/card";
-import BentoCardWrapper from "./ui/card";
 import { EmailInput } from "./ui/email-input";
-import { Github, GithubIcon, Slack } from "lucide-react";
+import { Github, Slack } from "lucide-react";
 
 const Community = () => {
   return (
-    <div className="flex flex-col justify-center mb-20">
+    <div className="flex flex-col justify-center md:mb-16 mb-6">
       <h1 className="font-bold text-4xl">Community</h1>
       <div className="flex flex-col py-4 gap-y-2 mx-4">
         <Card className="flex flex-col items-center justify-center px-4 py-10 md:py-20 w-full max-w-full text-white border-violet-900 hover:shadow-inner hover:shadow-violet-900">
@@ -29,7 +28,7 @@ const Community = () => {
           <EmailInput />
         </Card>
         <div className="flex flex-col gap-y-2 md:flex md:flex-row md:gap-x-2">
-          <Card className="flex justify-center py-20 px-4 w-full max-w-full border-violet-900 hover:shadow-inner hover:shadow-violet-900">
+          <Card className="flex justify-center py-14 md:py-20 px-4 w-full max-w-full border-violet-900 hover:shadow-inner hover:shadow-violet-900">
             <Link
               href="https://github.com/Eventual-Inc/Daft/discussions"
               className="flex flex-col items-center"
@@ -43,9 +42,9 @@ const Community = () => {
               </p>
             </Link>
           </Card>
-          <Card className="flex justify-center py-20 px-4 w-full max-w-full border-violet-900 hover:shadow-inner hover:shadow-violet-900">
+          <Card className="flex justify-center py-14 md:py-20 px-4 w-full max-w-full border-violet-900 hover:shadow-inner hover:shadow-violet-900">
           <Link
-              href="https://github.com/Eventual-Inc/Daft/discussions"
+              href="https://dist-data.slack.com/join/shared_invite/zt-1t44ss4za-1rtsJNIsQOnjlf8BlG05yw#/shared-invite/email"
               className="flex flex-col items-center"
             >
               <Slack className="mb-2" />

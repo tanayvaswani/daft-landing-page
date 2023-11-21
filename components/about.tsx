@@ -5,7 +5,7 @@ import illustration from "@/public/ils.png";
 const AboutSection = () => {
   return (
     <main className="flex flex-col justify-center items-center md:mb-16 mb-6">
-      <h1 className="font-bold text-4xl pb-2 content-center">
+      <h1 className="font-bold text-3xl md:text-4xl pb-2 content-center">
         Daft: The Distributed Python Dataframe
       </h1>
       <p className="font-medium mb-4">
