@@ -7,7 +7,7 @@ export function EmailInput() {
   return (
     <div className="flex justify-center md:flex w-full max-w-sm md:items-center space-x-1 mt-8 px-2">
       <Input type="email" placeholder="Email" className="bg-[#0F1116] border-[1px] border-violet-500" />
-      <Button type="submit" className="bg-violet-700 text-white hover:bg-violet-600">Subscribe</Button>
+      <Button type="submit" className="bg-violet-700 text-white hover:bg-violet-600 px-2 md:px-4">Subscribe</Button>
     </div>
   );
 }
