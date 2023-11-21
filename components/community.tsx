@@ -14,8 +14,8 @@ const Community = () => {
           <h1 className="text-center text-3xl md:text-4xl font-bold mb-2 text-violet-600">
             Daft Blog
           </h1>
-          <p className="text-center md:px-60 md:text-xl mb-2">
-            Daft is a fast, Pythonic and scalable open-source dataframe library.
+          <p className="text-center md:px-60 md:text-2xl mb-2">
+            Daft is a fast, Pythonic and scalable Open-Source dataframe library.
             Checkout{" "}
             <Link
               href="https://getdaft.io"

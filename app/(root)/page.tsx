@@ -3,7 +3,10 @@
 import AboutSection from "@/components/about";
 import Community from "@/components/community";
 import GetStarted from "@/components/get-started";
+import Integrations from "@/components/integrations";
 import MoreResources from "@/components/more-resources";
+import Background from "@/components/ui/background";
+import UseCases from "@/components/use-cases";
 
 export default function RootPage() {
   return (
@@ -12,6 +15,8 @@ export default function RootPage() {
       <GetStarted />
       <Community />
       <MoreResources />
+      <Integrations />
+      <UseCases />
     </div>
   );
 }
