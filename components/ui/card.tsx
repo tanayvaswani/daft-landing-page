@@ -56,7 +56,7 @@ export default function Card({
         className="pointer-events-none absolute -inset-px hidden opacity-0 transition duration-300 sm:block"
         style={{
           opacity,
-          background: `radial-gradient(400px circle at ${position.x}px ${position.y}px, rgba(46, 16, 101, .3), transparent 40%)`,
+          background: `radial-gradient(400px circle at ${position.x}px ${position.y}px, rgba(46, 16, 101, .4), transparent 40%)`,
         }}
       />
       {children}

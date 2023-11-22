@@ -14,7 +14,7 @@ const Community = () => {
           <h1 className="text-center text-3xl md:text-4xl font-bold mb-2 text-violet-600">
             Daft Blog
           </h1>
-          <p className="text-center md:px-60 md:text-2xl mb-2">
+          <p className="text-center lg:px-20 md:px-60 md:text-2xl mb-2">
             Daft is a fast, Pythonic and scalable Open-Source dataframe library.
             Checkout{" "}
             <Link
@@ -33,9 +33,9 @@ const Community = () => {
               href="https://github.com/Eventual-Inc/Daft/discussions"
               className="flex flex-col items-center"
             >
-              <Github className="text-6xl"/>
+              <Github />
               <p className="text-center font-bold hover:font-extrabold">
-                Github Discussions Forums
+                The GitHub Discussions Forums
               </p>
               <p className="text-center font-medium">
                 Post questions, suggest features and more...
@@ -47,7 +47,7 @@ const Community = () => {
               href="https://dist-data.slack.com/join/shared_invite/zt-1t44ss4za-1rtsJNIsQOnjlf8BlG05yw#/shared-invite/email"
               className="flex flex-col items-center"
             >
-              <Slack className="mb-2" />
+              <Slack />
               <p className="text-center font-bold hover:font-extrabold">
               The Distributed Data Community Slack
               </p>
