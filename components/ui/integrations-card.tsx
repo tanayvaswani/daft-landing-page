@@ -1,13 +1,15 @@
+import Image, { StaticImageData } from "next/image";
+
 interface IIntegrationCard {
-  title: String;
-  description: String;
+  title: string;
+  src: string | StaticImageData;
 }
 
-const IntegrationCard = ({ title, description }: IIntegrationCard) => {
+const IntegrationCard = ({ title, src }: IIntegrationCard) => {
   return (
     <div className="border-2 border-violet-950 rounded-md px-12 py-8">
-      <p className="font-bold text-lg pb-2">{title}</p>
-      <p className="pb-2">{description}</p>
+      <p className="font-bold text-lg pb-2 text-violet-500">{title}</p>
+      <Image src={src} alt="alt" />
     </div>
   );
 };

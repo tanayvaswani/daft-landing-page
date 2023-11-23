@@ -1,14 +1,18 @@
 import IntegrationCard from "./ui/integrations-card";
+import i1 from "@/public/i-1.png";
+import i2 from "@/public/i-2.png";
 
 const IntegrationCardArray = [
   {
     title: "Data Science & Machine Learning",
     description: "Python, NumPy, Pandas, R, RAY, Jupyter Notebooks, Jupyter",
+    src: i1,
   },
   {
     title: "Cloud Platforms' Storage",
     description:
       "Parquet, Amazon S3, Google Cloud Storage, Microsoft Azure, Apache Arrow",
+    src: i2,
   },
 ];
 
@@ -27,7 +31,7 @@ const Integrations = () => {
           return (
             <IntegrationCard
               title={obj.title}
-              description={obj.description}
+              src={obj.src}
               key={key}
             />
           );

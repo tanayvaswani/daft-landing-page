@@ -4,6 +4,7 @@ import AboutSection from "@/components/about";
 import Community from "@/components/community";
 import GetStarted from "@/components/get-started";
 import Integrations from "@/components/integrations";
+import KeyFeatures from "@/components/key-features";
 import MoreResources from "@/components/more-resources";
 import UseCases from "@/components/use-cases";
 
@@ -16,6 +17,7 @@ export default function RootPage() {
       <MoreResources />
       <Integrations />
       <UseCases />
+      <KeyFeatures />
     </div>
   );
 }

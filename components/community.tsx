@@ -34,7 +34,7 @@ const Community = () => {
               className="flex flex-col items-center"
             >
               <Github />
-              <p className="text-center font-bold hover:font-extrabold">
+              <p className="pt-2 text-center font-bold hover:font-extrabold">
                 The GitHub Discussions Forums
               </p>
               <p className="text-center font-medium">
@@ -48,7 +48,7 @@ const Community = () => {
               className="flex flex-col items-center"
             >
               <Slack />
-              <p className="text-center font-bold hover:font-extrabold">
+              <p className="pt-2 text-center font-bold hover:font-extrabold">
               The Distributed Data Community Slack
               </p>
               <p className="text-center font-medium">
