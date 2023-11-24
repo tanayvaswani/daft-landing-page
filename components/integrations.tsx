@@ -18,7 +18,7 @@ const IntegrationCardArray = [
 
 const Integrations = () => {
   return (
-    <main className="flex flex-col justify-center md:mb-16 mb-6">
+    <main className="flex flex-col justify-center md:mb-16 mb-6" id="integration">
       <h1 className="font-bold text-3xl md:text-4xl pb-4">Integrations</h1>
       <p className="mb-4">
         Daft is open-sourced and you can use any Python library when processing

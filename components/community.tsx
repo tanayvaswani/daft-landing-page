@@ -7,7 +7,7 @@ import { Github, Slack } from "lucide-react";
 
 const Community = () => {
   return (
-    <div className="flex flex-col justify-center md:mb-16 mb-6">
+    <div className="flex flex-col justify-center md:mb-16 mb-6" id="community">
       <h1 className="font-bold text-4xl">Community</h1>
       <div className="flex flex-col py-4 gap-y-2 mx-4">
         <Card className="flex flex-col items-center justify-center px-4 py-10 md:py-20 w-full max-w-full text-white border-violet-900 hover:shadow-inner hover:shadow-violet-900">

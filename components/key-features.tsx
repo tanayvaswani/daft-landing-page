@@ -20,7 +20,7 @@ const KeyFeaturesArray = [
 
 const KeyFeatures = () => {
   return (
-    <main className="flex flex-col justify-center md:mb-16 mb-6">
+    <main className="flex flex-col justify-center md:mb-16 mb-6" id="key-features">
       <h1 className="font-bold text-3xl md:text-4xl pb-4">Key Features</h1>
       <div className="flex flex-col gap-y-4 mx-4 md:flex md:flex-row md:gap-x-2">
         {KeyFeaturesArray.map((obj, key) => {

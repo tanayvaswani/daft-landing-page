@@ -23,7 +23,7 @@ const ResourceCardArray = [
 
 const MoreResources = () => {
   return (
-    <main className="flex flex-col justify-center md:mb-16 mb-6">
+    <main className="flex flex-col justify-center md:mb-16 mb-6" id="more-resources">
       <h1 className="font-bold text-3xl md:text-4xl pb-4">More Resources</h1>
       <div className="flex flex-col gap-y-2 mx-4 md:flex md:flex-row md:gap-x-2">
         {ResourceCardArray.map((obj, key) => {

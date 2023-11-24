@@ -2,7 +2,7 @@
 
 const GetStarted = () => {   
   return (
-    <div className="flex flex-col justify-center md:mb-16 mb-10">
+    <div className="flex flex-col justify-center md:mb-16 mb-10" id="get-started">
       <h1 className="font-bold text-4xl">Get Started</h1>
       <p className="font-medium mt-2 mb-4">
         You can get started with Daft by installing it with a simple command
